@@ -3420,6 +3420,9 @@
         .burger::part(label){
             font-size: var(--sl-font-size-large);
         }
+        header img, header sl-button{
+            width: 2rem;
+        }
         header,
         .label {
           display: flex;
