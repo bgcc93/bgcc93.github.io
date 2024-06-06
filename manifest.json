@@ -1,12 +1,12 @@
 {
   "id": "/",
   "scope": "/",
-  "name": "PWA Starter",
+  "name": "Bruno's Diet App",
   "display": "standalone",
-  "start_url": "/",
-  "short_name": "starter",
+  "start_url": "/index.thml",
+  "short_name": "diet",
   "theme_color": "#E1477E",
-  "description": "This is a PWA Starter app",
+  "description": "Bruno's amazing diet app is the best wow so great. Get BIG!! Or get small idk what you want.",
   "orientation": "any",
   "background_color": "#E1477E",
   "related_applications": [],
@@ -39,25 +39,30 @@
   ],
   "screenshots": [
     {
-      "src": "assets/screenshots/screen.png",
-      "sizes": "1617x1012",
+      "src": "assets/screenshots/screen1.png",
+      "sizes": "704x1563",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/screenshots/screen2.png",
+      "sizes": "702x1563",
       "type": "image/png"
     }
   ],
   "features": [
-    "Cross Platform",
-    "fast",
+    "diet tracking",
+    "macro calculation",
     "simple"
   ],
   "categories": [
-    "social"
+    "bodybuilding"
   ],
   "shortcuts": [
     {
-      "name": "Open About",
-      "short_name": "About",
-      "description": "Open the about page",
-      "url": "/about",
+      "name": "Open Diet",
+      "short_name": "Diet",
+      "description": "Open Diet Tracking",
+      "url": "/diet/timeline",
       "icons": [{ "src": "assets/icons/192x192.png", "sizes": "192x192" }]
     }
   ],
