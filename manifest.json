@@ -1,10 +1,10 @@
 {
   "id": "/",
   "scope": "/",
-  "name": "Bruno's Diet App",
+  "name": "Bulky - Bruno's Diet App",
   "display": "standalone",
   "start_url": "/index.thml",
-  "short_name": "diet",
+  "short_name": "Bulky",
   "theme_color": "#E1477E",
   "description": "Bruno's amazing diet app is the best wow so great. Get BIG!! Or get small idk what you want.",
   "orientation": "any",
