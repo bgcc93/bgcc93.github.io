@@ -62,7 +62,7 @@
       "name": "Open Diet",
       "short_name": "Diet",
       "description": "Open Diet Tracking",
-      "url": "/diet/timeline",
+      "url": "/index.html",
       "icons": [{ "src": "assets/icons/192x192.png", "sizes": "192x192" }]
     }
   ],

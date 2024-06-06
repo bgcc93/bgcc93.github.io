@@ -3,14 +3,21 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Bruno's Diet App</title>
+  <title>PWA Starter</title>
 
   <base href="/" />
 
+  <style>
+    body{
+      margin: 0;
+      height: 100vh;
+    }
+  </style>
+
   <!-- This meta viewport ensures the webpage's dimensions change according to the device it's on. This is called Responsive Web Design.-->
   <meta name="viewport"
-    content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
-  <meta name="description" content="Bruno's amazing diet app is the best wow so great. Get BIG!! Or get small idk what you want." />
+    content="viewport-fit=cover, width=device-width, user-scalable=0, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="description" content="This is a PWA Starter app" />
 
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#181818" />
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f3f3f3" />
@@ -24,7 +31,7 @@
   <meta name="pwa-starter-template-identity" content="pwa-starter"/>
 
   <!-- Imports an icon to represent the document. -->
-  <link rel="icon" href="/assets/icons/48x48.png" type="image/png" />
+  <link rel="icon" href="/assets/icons/24x24.png" type="image/png" />
 
   <!-- Imports the manifest to represent the web application. A web app must have a manifest to be a PWA. -->
   <link rel="manifest" href="manifest.json" />
@@ -32,18 +39,19 @@
   <!-- light mode and dark mode CSS -->
   <link rel="stylesheet" media="(prefers-color-scheme:light)"
     href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.73/dist/themes/light.css">
+
   <link rel="stylesheet" media="(prefers-color-scheme:dark)"
     href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.73/dist/themes/dark.css"
+
     onload="document.documentElement.classList.add('sl-theme-dark');">
-
-
-  <script type="module" crossorigin src="/code/index-DcatTtSZ.js"></script>
+
+  <script type="module" crossorigin src="/code/index-WJN-5DcO.js"></script>
   <link rel="stylesheet" crossorigin href="/code/index-CA_txzA6.css">
 </head>
 
 <body>
   <!-- Our app-index web component. This component is defined in src/pages/app-index.ts-->
-  <app-index></app-index>
+  <diet-page></diet-page>
 
   <script>
     if ('serviceWorker' in navigator) {
